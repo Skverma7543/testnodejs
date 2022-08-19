@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 const express=require('express')
 const app=express()
 
-const port=process.env.port || 4202
+const port=process.env.PORT || 4202
 // Replace the uri string with your connection string.
 const uri =
   "mongodb+srv://javascript:javascript@cluster0.a9uny.mongodb.net/?retryWrites=true&w=majority";
