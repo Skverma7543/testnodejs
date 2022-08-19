@@ -7,6 +7,6 @@ app.get('/student',(req,res)=>{
    let data={
     name:"shubham"
    }
-    res.write(JSON.stringify(data))
+    res.write("hello")
     res.end()
 }).listen(port)
